@@ -1,2 +1,2 @@
-# jje
-유니티
+# secondclass
+상수

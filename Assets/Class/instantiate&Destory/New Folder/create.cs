@@ -50,5 +50,10 @@ public class create : MonoBehaviour
         Instantiate(prefab, new Vector3(0, 5, 0), Quaternion.identity);
 
     }
+
+    public void PoolCreatre()
+    {
+        ObjectPool.objepool.GetQueue();
+    }
 }
 

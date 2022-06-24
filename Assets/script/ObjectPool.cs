@@ -16,10 +16,10 @@ public class ObjectPool : MonoBehaviour
     public Queue<GameObject> queue = new Queue<GameObject>();
 
 
-    int value = 0;
-
     private void Start()
     {
+        objepool = this;
+
         //1. 초기값을 설정한다.
         //2. 조건식을 설정한다.
         //3. 명령문을 한번 실행한다.

@@ -15,11 +15,15 @@ public class GeneriecStoneDelete : MonoBehaviour
 
     private void OnBecameInvisible()
     {
-        if (gameObject.name == "Stone_3(clone)")
-            Destroy(gameObject, 10);
-    
-        else if(gameObject.name == "Stone_5(clone)") 
-        ObjectPool.objepool.InsertQueue(gameObject);
+        if (gameObject.name == "Stone_3(Clone)")
+        {
+            Destroy(gameObject);
+        }
+        else if(gameObject.name == "Stone_5(Clone)")
+        {
+            ObjectPool.objepool.InsertQueue(gameObject);
+        }
+
      }
 
     
